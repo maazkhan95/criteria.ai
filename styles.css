@@ -1,0 +1,77 @@
+/* Set the fixed size for the popup */
+html,
+body {
+    width: 540px;
+    /* Adjust width to your desired size */
+    height: 1000px;
+    /* Adjust height to your desired size */
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* Center text for consistency */
+    overflow: hidden;
+    /* Prevent scrollbars from appearing */
+}
+
+/* Preserve your original body padding */
+body {
+    padding: 0px;
+    /* Reduce padding to fit the fixed height */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin: 5px 1%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#output {
+
+    margin-top: 20px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 2;
+    overflow-y: auto;
+}
+
+#output h3 {
+    text-align: center;
+
+}
+
+#test-cases {
+    white-space: pre-wrap;
+    font-family: monospace;
+    background-color: #f4f4f4;
+    padding: 0px;
+    border: 1px solid #ddd;
+    max-height: 600px;
+    /* Set max height for the container */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    resize: none;
+    /* Prevent users from resizing the textarea (optional) */
+}
